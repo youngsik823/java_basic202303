@@ -11,6 +11,8 @@ public class Hello {
         double rn = Math.random();
 
         Scanner sc = new Scanner(System.in);
+
+
     }
 }
 
