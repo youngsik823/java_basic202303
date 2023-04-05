@@ -1,12 +1,9 @@
-package day08.poly.book;
+package 복습.book;
 
 public class Book {
-    // 필드는 이제 프라이빗으로 하기
-    private String title; // 도서명
-    private String author; // 저자명
-    private String publisher; // 출판사명
-
-    // 대여 상태
+    private String title;
+    private String author;
+    private String publisher;
 
     public Book() {
 
@@ -41,18 +38,8 @@ public class Book {
     public void setPublisher(String publisher) {
         this.publisher = publisher;
     }
-    // 책 정보 문자열 생성
     public String info() {
-        // 문자열 글자수 얻기 length()
-        int length = this.title.length();
-        String prettier;
-        if(length > 8) {
-            // 문자열 슬라이스 substring()
-            prettier = this.title.substring(0, 8) + "...";
-        }else {
-            prettier = this.title;
-        }
-        return String.format("제목: %s", prettier);
-    }
 
+        return null;
+    }
 }
