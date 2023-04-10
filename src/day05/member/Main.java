@@ -7,5 +7,6 @@ public class Main {
 
         MemberView mv = new MemberView();
         mv.viewProcess();
+
     }
 }
